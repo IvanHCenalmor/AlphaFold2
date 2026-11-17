@@ -16,9 +16,14 @@ extra_files:
 - app/python_scripts/include_path.py: AlphaFold2/include_path.py
 - app/python_scripts/launch_jupyter.py: AlphaFold2/launch_jupyter.py
 - construct.yaml: AlphaFold2/construct.yaml
+- labconstrictor-app.yaml: AlphaFold2/labconstrictor-app.yaml
+- notebooks/AlphaFold2/AlphaFold2.ipynb: AlphaFold2/notebooks/AlphaFold2/AlphaFold2.ipynb
 - notebooks/notebook_latest_versions.yaml: AlphaFold2/notebook_latest_versions.yaml
+- requirements.lock.txt: AlphaFold2/requirements.lock.txt
 - requirements.txt: AlphaFold2/requirements.txt
+- requirements_gpu.lock.txt: AlphaFold2/requirements_gpu.lock.txt
 - requirements_gpu.txt: AlphaFold2/requirements_gpu.txt
+- src/alphafold2/__init__.py: AlphaFold2/src/alphafold2/__init__.py
 post_install: app/bash_bat_scripts/post_install.bat # [win]
 post_install: app/bash_bat_scripts/post_install.sh # [unix]
 pre_uninstall: app/bash_bat_scripts/pre_uninstall.bat # [win]
